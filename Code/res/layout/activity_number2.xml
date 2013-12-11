@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/teal">
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horizontalScrollView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="Enter" />
+    
+    <Button
+        android:id="@+id/testButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="TestArray"
+		android:visibility="gone"
+		></Button>
+    <TextView
+        android:id="@+id/topMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/horizontalScrollView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:text="@string/inputknownletters"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/topMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/topMessage"
+        android:layout_alignRight="@+id/enterButton"
+        android:layout_marginBottom="50dp"
+        android:text="@string/revealNumber"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scrollbars="none"
+        android:measureAllChildren = "false" >
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:orientation="horizontal"
+	        android:textSize="22sp" >
+	
+	        <EditText
+	            android:id="@+id/input1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input5"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input6"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input7"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input8"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input9"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input10"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input11"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input12"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input13"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input14"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	
+	        <EditText
+	            android:id="@+id/input15"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="2"
+	            android:inputType="text"
+	            android:text=""
+	            android:visibility="gone" />
+	    </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/showArray0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/enterButton"
+        android:layout_marginLeft="18dp"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/UserInputNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/topMessage2"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/topMessage2"
+        android:text="0"
+        android:textSize="22dp" />
+
+</RelativeLayout>

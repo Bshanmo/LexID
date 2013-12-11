@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="teal">#D1EEEE</color>
+
+    <string name="app_name">LexID</string>
+    <string name="action_settings">Settings</string>
+    <string name="TITLE">LexID (v0.1)</string>
+    <string name="play">Play</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutText">        The ultimate (nah we\'re just kidding) app in linguistics adaptability.
+        Need a word? Just type in the letters it needs and it will do the rest! </string>
+    <string name="developers">Developers:</string>
+    <string name="namesAndRoles">
+        		Made by Ra-Tet\n
+                Boshan Mo - Project Lead\n
+        Daniel Kim - GUI Designer\n
+        Jeff Zhu - Interface Designer\n
+        Emily Powell - Processing Designer\n
+        Rabee Adil Jamshed - Documentation Designer </string>
+    <string name="howmanyletters">How many letters does your word have? 3 to 15 letters only.</string>
+    <string name="enter">Enter</string>
+    <string name="title_activity_number1">Enter</string>
+    <string name="title_activity_number2">Enter</string>
+    <string name="inputknownletters">Input known letters.</string>
+    <string name="revealNumber">You\'ve chosen:</string>
+    <string name="title_activity_number3">Your Words Are:</string>
+	<string name="showresulttip">Resulting words</string>
+</resources>
